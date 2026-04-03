@@ -5,7 +5,7 @@ export default defineConfig({
   srcDir: '.',
   safariXcode: {
     appCategory: 'public.app-category.utilities',
-    bundleIdentifier: 'com.tulios.json-viewer',
+    bundleIdentifier: 'com.rxliuli.json-viewer',
     developmentTeam: '',
   },
   vite: () => ({
@@ -31,9 +31,9 @@ export default defineConfig({
       host_permissions: ['<all_urls>'],
       omnibox: { keyword: 'json-viewer' },
       author: {
-        email: 'ornelas.tulio@gmail.com',
+        email: 'rxliuli@gmail.com',
       },
-      homepage_url: 'https://github.com/tulios/json-viewer',
+      homepage_url: 'https://github.com/rxliuli/json-viewer',
       web_accessible_resources: [
         {
           resources: ['assets/*', 'themes/**/*'],
@@ -44,11 +44,11 @@ export default defineConfig({
     if (env.browser === 'firefox') {
       manifest.browser_specific_settings = {
         gecko: {
-          id: 'json-viewer@tulios.com',
+          id: 'json-viewer@rxliuli.com',
         },
       }
       // @ts-expect-error Firefox requires string author
-      manifest.author = 'Tulio Ornelas'
+      manifest.author = 'rxliuli'
     }
     return manifest
   },

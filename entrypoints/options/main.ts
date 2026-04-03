@@ -38,7 +38,7 @@ function renderVersion(): void {
     'version',
   )[0] as HTMLAnchorElement
   versionLink.innerHTML = version
-  versionLink.href = 'https://github.com/tulios/json-viewer/tree/' + version
+  versionLink.href = 'https://github.com/rxliuli/json-viewer/tree/' + version
 }
 
 async function onLoaded(): Promise<void> {
