@@ -4,9 +4,9 @@ export default defineConfig({
   modules: ['wxt-module-safari-xcode'],
   srcDir: '.',
   safariXcode: {
-    appCategory: 'public.app-category.utilities',
+    appCategory: 'public.app-category.developer-tools',
     bundleIdentifier: 'com.rxliuli.json-viewer',
-    developmentTeam: '',
+    developmentTeam: 'N2X78TUUFG',
   },
   vite: () => ({
     resolve: {
@@ -21,7 +21,6 @@ export default defineConfig({
       name: 'JSON Viewer',
       description:
         'The most beautiful and customizable JSON/JSONP highlighter that your eyes have ever seen',
-      version: '0.18.1',
       icons: {
         '16': 'icon/16.png',
         '32': 'icon/32.png',
