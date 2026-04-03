@@ -1,5 +1,8 @@
 .DS_Store
-build/*
-pkg/*
-node_modules/*
+node_modules/
+.output/
+.wxt/
+build/
+pkg/
 *.log
+.claude/

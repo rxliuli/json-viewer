@@ -1,0 +1,65 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.read-only .CodeMirror-cursor {
+  visibility: hidden;
+}
+
+.CodeMirror {
+  width: 100%;
+  height: 100%;
+}
+
+.extras {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  right: 16px;
+  padding: 10px 5px 10px 15px;
+}
+
+.extras a {
+  transition: all ease-in-out 250ms;
+  visibility: visible;
+  opacity: 0.3;
+}
+
+.extras:hover a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.extras .icon svg {
+  width: 40px;
+  height: 40px;
+  fill: #000000;
+}
+
+.extras .icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
+  background-color: transparent;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.extras .icon:hover {
+  background-color: #ccc;
+}
+
+.extras.auto-highlight-off .icon {
+  background-color: #ccc;
+}
+
+.extras.dark-theme .icon svg {
+  fill: #fff;
+}
+
+.extras.dark-theme .icon:hover {
+  background-color: #666;
+}
