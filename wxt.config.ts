@@ -48,6 +48,9 @@ export default defineConfig({
       }
       // @ts-expect-error Firefox requires string author
       manifest.author = 'rxliuli'
+    } else if (env.browser === 'safari') {
+      manifest.name = 'JSON Viewer+'
+      delete manifest.omnibox
     }
     return manifest
   },
