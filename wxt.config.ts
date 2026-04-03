@@ -44,6 +44,10 @@ export default defineConfig({
       manifest.browser_specific_settings = {
         gecko: {
           id: 'json-viewer@rxliuli.com',
+          // @ts-expect-error https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings#data_collection_permissions
+          data_collection_permissions: {
+            required: ['none'],
+          },
         },
       }
       // @ts-expect-error Firefox requires string author
