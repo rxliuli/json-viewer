@@ -7,6 +7,7 @@ export default defineConfig({
     appCategory: 'public.app-category.developer-tools',
     bundleIdentifier: 'com.rxliuli.json-viewer',
     developmentTeam: 'N2X78TUUFG',
+    projectType: 'macos',
   },
   vite: () => ({
     resolve: {
