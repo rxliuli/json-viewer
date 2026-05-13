@@ -6,7 +6,7 @@
 
 The most beautiful and customizable JSON/JSONP highlighter that your eyes have ever seen.
 
-> This is a fork of [tulios/json-viewer](https://github.com/tulios/json-viewer), maintained by [@rxliuli](https://github.com/rxliuli). The original project has not been updated for 4 years and no longer works on recent versions of Chrome. This fork modernizes the project without changing any functionality — migrating from Webpack to [WXT](https://wxt.dev/), upgrading from Manifest V2 to V3, and adding support for Chrome, Firefox, and Safari.
+> This is a fork of [tulios/json-viewer](https://github.com/tulios/json-viewer), maintained by [@rxliuli](https://github.com/rxliuli). The original project has not been updated for 4 years and no longer works on recent versions of Chrome. This fork modernizes the project and adds some themes without changing any functionality — migrating from Webpack to [WXT](https://wxt.dev/), upgrading from Manifest V2 to V3, and adding support for Chrome, Firefox, and Safari.
 
 Notes:
 

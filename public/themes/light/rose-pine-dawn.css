@@ -1,0 +1,31 @@
+/* Rosé Pine Dawn for CodeMirror */
+/* https://rosepinetheme.com */
+/* This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom) */
+
+.cm-s-rose-pine-dawn .CodeMirror-gutters { background: #fffaf3 !important; }
+.cm-s-rose-pine-dawn .CodeMirror-foldgutter-open, .CodeMirror-foldgutter-folded { color: #9893a5; }
+.cm-s-rose-pine-dawn .CodeMirror-cursor { border-left: 1px solid #575279; }
+.cm-s-rose-pine-dawn { background-color: #faf4ed; color: #575279; }
+.cm-s-rose-pine-dawn span.cm-builtin { color: #b4637a; font-weight: bold; }
+.cm-s-rose-pine-dawn span.cm-comment { color: #9893a5; }
+.cm-s-rose-pine-dawn span.cm-keyword { color: #286983; font-weight: bold; }
+.cm-s-rose-pine-dawn span.cm-atom { color: #d7827e; }
+.cm-s-rose-pine-dawn span.cm-def { color: #575279; }
+.cm-s-rose-pine-dawn span.cm-variable { color: #ea9d34; }
+.cm-s-rose-pine-dawn span.cm-variable-2 { color: #575279; }
+.cm-s-rose-pine-dawn span.cm-string { color: #ea9d34; }
+.cm-s-rose-pine-dawn span.cm-string-2 { color: #ea9d34; }
+.cm-s-rose-pine-dawn span.cm-number { color: #d7827e; }
+.cm-s-rose-pine-dawn span.cm-tag { color: #56949f; }
+.cm-s-rose-pine-dawn span.cm-property { color: #907aa9; }
+.cm-s-rose-pine-dawn span.cm-attribute { color: #ea9d34; }
+.cm-s-rose-pine-dawn span.cm-qualifier { color: #56949f; }
+.cm-s-rose-pine-dawn span.cm-meta { color: #797593; }
+.cm-s-rose-pine-dawn span.cm-header { color: #b4637a; }
+.cm-s-rose-pine-dawn span.cm-operator { color: #797593; }
+.cm-s-rose-pine-dawn span.CodeMirror-matchingbracket { box-sizing: border-box; background: transparent; border-bottom: 1px solid; }
+.cm-s-rose-pine-dawn span.CodeMirror-nonmatchingbracket { border-bottom: 1px solid #b4637a; background: none; }
+.cm-s-rose-pine-dawn .CodeMirror-activeline { background: #f4ede8; }
+.cm-s-rose-pine-dawn .CodeMirror-activeline-background { background: #f4ede8; }
+.cm-s-rose-pine-dawn div.CodeMirror-selected { background: #dfdad9; }
+.cm-s-rose-pine-dawn .CodeMirror-focused div.CodeMirror-selected { background: #cecacd; }
