@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": "https://github.com/rxliuli/json-viewer",
   "private": true,
-  "version": "0.19.4",
+  "version": "0.19.5",
   "type": "module",
   "scripts": {
     "dev": "wxt",
