@@ -6,7 +6,7 @@
   "repository": "https://github.com/rxliuli/json-viewer",
   "packageManager": "pnpm@10.5.2",
   "private": true,
-  "version": "0.19.6",
+  "version": "0.19.7",
   "type": "module",
   "scripts": {
     "dev": "wxt",
